@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QIFDocument
+ xmlns="http://qifstandards.org/xsd/qif3"
+ versionQIF= "3.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://qifstandards.org/xsd/qif3 ../QIFApplications/QIFDocument.xsd">
+
+ <QPId>6a625871-60cd-49c6-9b5c-0d20485b88dc</QPId>
+
+ <Version>
+  <TimeCreated>2021-03-15T11:19:17</TimeCreated>
+ </Version>
+
+ <Header>
+  <Application>
+   <Name>Multisensor Massive Measurement - M3</Name>
+   <AddonName>M3</AddonName>
+  <AddonOrganization>Innovalia Metrology</AddonOrganization>
+  </Application>
+ </Header>
+
+ <StandardsDefinitions n="1">
+  <Standard id="90">
+   <Organization>
+    <StandardsOrganizationEnum>ASME</StandardsOrganizationEnum>
+   </Organization>
+   <Designator>Y14.5</Designator>
+   <Year>1994</Year>
+  </Standard>
+ </StandardsDefinitions>
+
+ <PreInspectionTraceability>
+  <InspectingOrganization>
+   <Name>Trimek</Name>
+   <Address>
+    <InternalLocation>Poligono Industrial Islarra</InternalLocation>
+    <StreetNumber>2</StreetNumber>
+    <Street>Camino de la Yesera</Street>
+    <Town>Altube-Zuia</Town>
+    <Region>Alava</Region>
+    <PostalCode>01139</PostalCode>
+    <FacsimileNumber>+34 945 430 378</FacsimileNumber>
+    <TelephoneNumber>+34 945 430 718</TelephoneNumber>
+    <ElectronicMailAddress>info@trimek.com</ElectronicMailAddress>
+   </Address>
+  </InspectingOrganization>
+  <SupplierCode>Proveedor 1</SupplierCode>
+  <PurchaseOrderNumber>M3 2021</PurchaseOrderNumber>
+  <AsmPathIds n="1">
+   <Id>3</Id>
+  </AsmPathIds>
+  <ReportNumber>QIF 3</ReportNumber>
+  <InspectionScope>DETAIL</InspectionScope>
+  <InspectionMode>FAI_Full</InspectionMode>
+  <ReportPreparer>
+   <Name>Innovalia Metrology</Name>
+   <EmployeeId>M3</EmployeeId>
+  </ReportPreparer>
+  <ReportPreparationDate>2021-03-15T11:19:17</ReportPreparationDate>
+  <ReferencedQMPlanInstanceQPId>
+   <ItemQPId>2ae52d2e-81d8-4c6d-8237-bbb736ad6b86</ItemQPId>
+  </ReferencedQMPlanInstanceQPId>
+  <FormalStandardId>90</FormalStandardId>
+ </PreInspectionTraceability>
+
+ <FileUnits>
+  <PrimaryUnits>
+   <AngularUnit>
+    <SIUnitName>radian</SIUnitName>
+    <UnitName>degree</UnitName>
+    <UnitConversion>
+     <Factor>0.017453292519943</Factor>
+    </UnitConversion>
+   </AngularUnit>
+   <LinearUnit>
+    <SIUnitName>meter</SIUnitName>
+    <UnitName>mm</UnitName>
+    <UnitConversion>
+     <Factor>0.001</Factor>
+    </UnitConversion>
+   </LinearUnit>
+  </PrimaryUnits>
+ </FileUnits>
+
+ <DatumDefinitions>
+ </DatumDefinitions>
+
+ <DatumReferenceFrames n="0">
+ </DatumReferenceFrames>
+
+ <MeasurementResources>
+  <MeasurementDevices n="1">
+   <MeasurementDevice id="10">
+    <Name>Trimek CMM Spark Gage Plus</Name>
+   </MeasurementDevice>
+  </MeasurementDevices>
+ </MeasurementResources>
+
+ <Product>
+  <PartSet n="1">
+   <Part id="1">
+    <UUID>dde88a71-a7f1-4df0-998f-4d973b5325f2</UUID>
+   </Part>
+  </PartSet>
+  <ComponentSet n="1">
+   <Component id="2">
+    <UUID>32b1a7b3-6952-4f7d-902e-6e46528779d9</UUID>
+    <Part>
+     <Id>1</Id>
+    </Part>
+   </Component>
+  </ComponentSet>
+  <AsmPaths n="1">
+   <AsmPath id="3">
+    <UUID>3ae42a78-35f0-48c1-8b4c-8d6c574aa309</UUID>
+    <ComponentIds n="1">
+     <Id>2</Id>
+    </ComponentIds>
+   </AsmPath>
+  </AsmPaths>
+ </Product>
+
+ <Features>
+  <FeatureDefinitions n="6">
+   <PointFeatureDefinition id="830">
+   </PointFeatureDefinition>
+   <SphereFeatureDefinition id="810">
+    <Diameter>22</Diameter>
+   </SphereFeatureDefinition>
+   <ConeFeatureDefinition id="820">
+    <Diameter>28</Diameter>
+    <ConeDiameterDistance>14</ConeDiameterDistance>
+   </ConeFeatureDefinition>
+   <OppositeParallelLinesFeatureDefinition id="730">
+    <Width>15</Width>
+    <Length>35</Length>
+    <EndType>
+     <SlotEndEnum>ROUND</SlotEndEnum>
+    </EndType>
+   </OppositeParallelLinesFeatureDefinition>
+   <CircleFeatureDefinition id="800">
+    <Diameter>15</Diameter>
+   </CircleFeatureDefinition>
+   <CircleFeatureDefinition id="770">
+    <Diameter>50</Diameter>
+   </CircleFeatureDefinition>
+  </FeatureDefinitions>
+
+  <FeatureNominals n="6">
+   <PointFeatureNominal id="831">
+    <FeatureDefinitionId>830</FeatureDefinitionId>
+    <Location>60.568172455 22.476646423 -0.318249613</Location>
+   </PointFeatureNominal>
+   <SphereFeatureNominal id="811">
+    <FeatureDefinitionId>810</FeatureDefinitionId>
+    <Location>74 58 0</Location>
+   </SphereFeatureNominal>
+   <ConeFeatureNominal id="821">
+    <FeatureDefinitionId>820</FeatureDefinitionId>
+    <Axis>
+     <AxisPoint>74.5 92.5 -14</AxisPoint>
+    <Direction>0 0 1</Direction>
+    </Axis>
+   </ConeFeatureNominal>
+   <OppositeParallelLinesFeatureNominal id="731">
+    <FeatureDefinitionId>730</FeatureDefinitionId>
+    <CenterLine>
+     <StartPoint>20 21.5 0</StartPoint>
+     <Vector>0 1 0</Vector>
+    </CenterLine>
+    <Normal>0 0 1</Normal>
+   </OppositeParallelLinesFeatureNominal>
+   <CircleFeatureNominal id="801">
+    <FeatureDefinitionId>800</FeatureDefinitionId>
+    <Location>32.5 75.5 -10</Location>
+    <Normal>0 0 1</Normal>
+   </CircleFeatureNominal>
+   <CircleFeatureNominal id="771">
+    <FeatureDefinitionId>770</FeatureDefinitionId>
+    <Location>32 75.5 0</Location>
+    <Normal>0 0 1</Normal>
+   </CircleFeatureNominal>
+  </FeatureNominals>
+
+  <FeatureItems n="6">
+   <PointFeatureItem id="833">
+    <FeatureNominalId>831</FeatureNominalId>
+    <FeatureName>Punto 5</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </PointFeatureItem>
+   <SphereFeatureItem id="813">
+    <FeatureNominalId>811</FeatureNominalId>
+    <FeatureName>Esfera 1</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </SphereFeatureItem>
+   <ConeFeatureItem id="823">
+    <FeatureNominalId>821</FeatureNominalId>
+    <FeatureName>Cono 1</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </ConeFeatureItem>
+   <OppositeParallelLines id="733">
+    <FeatureNominalId>731</FeatureNominalId>
+    <FeatureName>Coliso 1</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </OppositeParallelLines>
+   <CircleFeatureItem id="803">
+    <FeatureNominalId>801</FeatureNominalId>
+    <FeatureName>CIR2</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </CircleFeatureItem>
+   <CircleFeatureItem id="773">
+    <FeatureNominalId>771</FeatureNominalId>
+    <FeatureName>CIR1</FeatureName>
+    <DeterminationMode>
+     <Checked>
+      <CheckDetails>
+       <Measured></Measured>
+      </CheckDetails>
+     </Checked>
+    </DeterminationMode>
+   </CircleFeatureItem>
+  </FeatureItems>
+ </Features>
+
+ <Characteristics>
+  <FormalStandardId>90</FormalStandardId>
+  <CharacteristicDefinitions n="32">
+   <LinearCoordinateCharacteristicDefinition id="83014">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="83024">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="83034">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="81014">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="81024">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="81034">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <DiameterCharacteristicDefinition id="81074">
+    <Tolerance>
+     <MaxValue>0.1</MaxValue>
+     <MinValue>-0.1</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </DiameterCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82014">
+   <Tolerance>
+   <MaxValue>0.5</MaxValue>
+   <MinValue>-0.5</MinValue>
+   <DefinedAsLimit>false</DefinedAsLimit>
+   </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82024">
+   <Tolerance>
+   <MaxValue>0.5</MaxValue>
+   <MinValue>-0.5</MinValue>
+   <DefinedAsLimit>false</DefinedAsLimit>
+   </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82034">
+   <Tolerance>
+   <MaxValue>0.5</MaxValue>
+   <MinValue>-0.5</MinValue>
+   <DefinedAsLimit>false</DefinedAsLimit>
+   </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82044">
+   <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82054">
+   <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="82064">
+   <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <DiameterCharacteristicDefinition id="82074">
+   <NonTolerance>MEASURED</NonTolerance>
+   </DiameterCharacteristicDefinition>
+   <AngleCharacteristicDefinition id="82224">
+   <NonTolerance>MEASURED</NonTolerance>
+   </AngleCharacteristicDefinition>
+   <HeightCharacteristicDefinition id="82094">
+   <NonTolerance>MEASURED</NonTolerance>
+   </HeightCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73014">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73024">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73034">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73044">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73054">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73064">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <DiameterCharacteristicDefinition id="73074">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </DiameterCharacteristicDefinition>
+   <LengthCharacteristicDefinition id="73324">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LengthCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73294">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73304">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="73314">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80014">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80024">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80034">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80044">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80054">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="80064">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <DiameterCharacteristicDefinition id="80074">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </DiameterCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77014">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77024">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77034">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77044">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77054">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <LinearCoordinateCharacteristicDefinition id="77064">
+    <NonTolerance>MEASURED</NonTolerance>
+   </LinearCoordinateCharacteristicDefinition>
+   <DiameterCharacteristicDefinition id="77074">
+    <Tolerance>
+     <MaxValue>0.5</MaxValue>
+     <MinValue>-0.5</MinValue>
+     <DefinedAsLimit>false</DefinedAsLimit>
+    </Tolerance>
+   </DiameterCharacteristicDefinition>
+  </CharacteristicDefinitions>
+
+  <CharacteristicNominals n="32">
+   <LinearCoordinateCharacteristicNominal id="83015">
+    <CharacteristicDefinitionId>83014</CharacteristicDefinitionId>
+    <TargetValue>60.568172455</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="83025">
+    <CharacteristicDefinitionId>83024</CharacteristicDefinitionId>
+    <TargetValue>22.476646423</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="83035">
+    <CharacteristicDefinitionId>83034</CharacteristicDefinitionId>
+    <TargetValue>-0.318249613</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="81015">
+    <CharacteristicDefinitionId>81014</CharacteristicDefinitionId>
+    <TargetValue>74</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="81025">
+    <CharacteristicDefinitionId>81024</CharacteristicDefinitionId>
+    <TargetValue>58</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="81035">
+    <CharacteristicDefinitionId>81034</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <DiameterCharacteristicNominal id="81075">
+    <CharacteristicDefinitionId>81074</CharacteristicDefinitionId>
+   </DiameterCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82015">
+    <CharacteristicDefinitionId>82014</CharacteristicDefinitionId>
+    <TargetValue>74.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82025">
+    <CharacteristicDefinitionId>82024</CharacteristicDefinitionId>
+    <TargetValue>92.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82035">
+    <CharacteristicDefinitionId>82034</CharacteristicDefinitionId>
+    <TargetValue>-14</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82045">
+    <CharacteristicDefinitionId>82044</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82055">
+    <CharacteristicDefinitionId>82054</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="82065">
+    <CharacteristicDefinitionId>82064</CharacteristicDefinitionId>
+    <TargetValue>1</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <DiameterCharacteristicNominal id="82075">
+    <CharacteristicDefinitionId>82074</CharacteristicDefinitionId>
+   </DiameterCharacteristicNominal>
+   <AngleCharacteristicNominal id="82225">
+    <CharacteristicDefinitionId>82224</CharacteristicDefinitionId>
+   </AngleCharacteristicNominal>
+   <HeightCharacteristicNominal id="82095">
+    <CharacteristicDefinitionId>82094</CharacteristicDefinitionId>
+   </HeightCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73015">
+    <CharacteristicDefinitionId>73014</CharacteristicDefinitionId>
+    <TargetValue>20</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73025">
+    <CharacteristicDefinitionId>73024</CharacteristicDefinitionId>
+    <TargetValue>21.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73035">
+    <CharacteristicDefinitionId>73034</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73045">
+    <CharacteristicDefinitionId>73044</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73055">
+    <CharacteristicDefinitionId>73054</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73065">
+    <CharacteristicDefinitionId>73064</CharacteristicDefinitionId>
+    <TargetValue>1</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <WidthCharacteristicNominal id="73075">
+    <CharacteristicDefinitionId>73074</CharacteristicDefinitionId>
+   </WidthCharacteristicNominal>
+   <LengthCharacteristicNominal id="73325">
+    <CharacteristicDefinitionId>73324</CharacteristicDefinitionId>
+   </LengthCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73295">
+    <CharacteristicDefinitionId>73294</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73305">
+    <CharacteristicDefinitionId>73304</CharacteristicDefinitionId>
+    <TargetValue>1</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="73315">
+    <CharacteristicDefinitionId>73314</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80015">
+    <CharacteristicDefinitionId>80014</CharacteristicDefinitionId>
+    <TargetValue>32.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80025">
+    <CharacteristicDefinitionId>80024</CharacteristicDefinitionId>
+    <TargetValue>75.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80035">
+    <CharacteristicDefinitionId>80034</CharacteristicDefinitionId>
+    <TargetValue>-10</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80045">
+    <CharacteristicDefinitionId>80044</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80055">
+    <CharacteristicDefinitionId>80054</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="80065">
+    <CharacteristicDefinitionId>80064</CharacteristicDefinitionId>
+    <TargetValue>1</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <DiameterCharacteristicNominal id="80075">
+    <CharacteristicDefinitionId>80074</CharacteristicDefinitionId>
+   </DiameterCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77015">
+    <CharacteristicDefinitionId>77014</CharacteristicDefinitionId>
+    <TargetValue>32</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77025">
+    <CharacteristicDefinitionId>77024</CharacteristicDefinitionId>
+    <TargetValue>75.5</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77035">
+    <CharacteristicDefinitionId>77034</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77045">
+    <CharacteristicDefinitionId>77044</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77055">
+    <CharacteristicDefinitionId>77054</CharacteristicDefinitionId>
+    <TargetValue>0</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <LinearCoordinateCharacteristicNominal id="77065">
+    <CharacteristicDefinitionId>77064</CharacteristicDefinitionId>
+    <TargetValue>1</TargetValue>
+   </LinearCoordinateCharacteristicNominal>
+   <DiameterCharacteristicNominal id="77075">
+    <CharacteristicDefinitionId>77074</CharacteristicDefinitionId>
+   </DiameterCharacteristicNominal>
+  </CharacteristicNominals>
+
+  <CharacteristicItems n="32">
+   <LinearCoordinateCharacteristicItem id="83017">
+    <Name>XAXIS_Punto 5</Name>
+    <FeatureItemIds>
+     <Id>833</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>83015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="83027">
+    <Name>YAXIS_Punto 5</Name>
+    <FeatureItemIds>
+     <Id>833</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>83025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="83037">
+    <Name>ZAXIS_Punto 5</Name>
+    <FeatureItemIds>
+     <Id>833</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>83035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="81017">
+    <Name>XAXIS_Esfera 1</Name>
+    <FeatureItemIds>
+     <Id>813</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>81015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="81027">
+    <Name>YAXIS_Esfera 1</Name>
+    <FeatureItemIds>
+     <Id>813</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>81025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="81037">
+    <Name>ZAXIS_Esfera 1</Name>
+    <FeatureItemIds>
+     <Id>813</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>81035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <DiameterCharacteristicItem id="81077">
+    <Name>DIAMETER_Esfera 1</Name>
+    <FeatureItemIds>
+     <Id>813</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>81075</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </DiameterCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82017">
+    <Name>XAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82027">
+    <Name>YAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82037">
+    <Name>ZAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82047">
+    <Name>XAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82045</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82057">
+    <Name>YAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82055</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="82067">
+    <Name>ZAXIS_Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82065</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <DiameterCharacteristicItem id="82077">
+    <Name>Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82075</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </DiameterCharacteristicItem>
+   <AngleCharacteristicItem id="82227">
+    <Name>Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82225</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </AngleCharacteristicItem>
+   <HeightCharacteristicItem id="82097">
+    <Name>Cono 1</Name>
+    <FeatureItemIds>
+     <Id>823</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>82095</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </HeightCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73017">
+    <Name>XAXIS_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73027">
+    <Name>YAXIS_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73037">
+    <Name>ZAXIS_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73047">
+    <Name>I_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73057">
+    <Name>J_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73055</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73067">
+    <Name>K_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73065</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <WidthCoordinateCharacteristicItem id="73077">
+    <Name>DIAMETER_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73075</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </WidthCoordinateCharacteristicItem>
+   <LengthCharacteristicItem id="73327">
+    <Name>LENGTH_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73325</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LengthCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73297">
+    <Name>DIR_I_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73295</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73307">
+    <Name>DIR_J_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73305</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="73317">
+    <Name>DIR_K_Coliso 1</Name>
+    <FeatureItemIds>
+     <Id>733</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>73315</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80017">
+    <Name>XAXIS_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80027">
+    <Name>YAXIS_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80037">
+    <Name>ZAXIS_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80047">
+    <Name>I_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80045</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80057">
+    <Name>J_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80055</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="80067">
+    <Name>K_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80065</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <DiameterCharacteristicItem id="80077">
+    <Name>DIAMETER_CIR2</Name>
+    <FeatureItemIds>
+     <Id>803</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>80075</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </DiameterCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77017">
+    <Name>XAXIS_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77015</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77027">
+    <Name>YAXIS_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77025</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77037">
+    <Name>ZAXIS_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77035</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77047">
+    <Name>I_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77045</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77057">
+    <Name>J_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77055</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <LinearCoordinateCharacteristicItem id="77067">
+    <Name>K_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77065</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </LinearCoordinateCharacteristicItem>
+   <DiameterCharacteristicItem id="77077">
+    <Name>DIAMETER_CIR1</Name>
+    <FeatureItemIds>
+     <Id>773</Id>
+    </FeatureItemIds>
+    <MeasurementDeviceIds>
+     <MeasurementDeviceId>10</MeasurementDeviceId>
+    </MeasurementDeviceIds>
+    <CharacteristicNominalId>77075</CharacteristicNominalId>
+    <LocationOnDrawing>
+     <DrawingId>1</DrawingId>
+     <SheetNumber>SHEET1</SheetNumber>
+     <DrawingZone>A1</DrawingZone>
+    </LocationOnDrawing>
+   </DiameterCharacteristicItem>
+  </CharacteristicItems>
+ </Characteristics>
+
+ <Results>
+  <MeasurementResultsSet n="1">
+   <MeasurementResults id="1">
+    <ThisResultsInstanceQPId>303e7c08-9dc4-479c-bcbd-028617e7cbfc</ThisResultsInstanceQPId>
+    <MeasuredFeatures n="6">
+     <PointFeatureMeasurement id="832">
+      <FeatureItemId>833</FeatureItemId>
+      <Location>60.568172454834 22.4766464233398 -0.318249613046646</Location>
+     </PointFeatureMeasurement>
+     <SphereFeatureMeasurement id="812">
+      <FeatureItemId>813</FeatureItemId>
+      <Diameter>21.9924707368535</Diameter>
+      <CenterPoint>74.02694665798521 57.5236466722364 0.0040984027718012</CenterPoint>
+     </SphereFeatureMeasurement>
+     <ConeFeatureMeasurement id="822">
+      <FeatureItemId>823</FeatureItemId>
+      <Axis>
+       <AxisPoint>74.4567413990687 92.522659216447 -14.0075358200533</AxisPoint>
+       <Direction>-0.0001712974669265 0.0000000000000000 0.9999999847531023</Direction>
+      </Axis>
+      <Diameter>24.0126208020006</Diameter>
+      <HalfAngle>44.990393</HalfAngle>
+      <EndLength>12.010337452472</EndLength>
+      <StartLength>5.995125</StartLength>
+     </ConeFeatureMeasurement>
+     <OppositeParallelLinesFeatureMeasurement id="732">
+      <FeatureItemId>733</FeatureItemId>
+      <CenterLine>
+       <StartPoint>18.5929093012334 21.6991393620872 -0.0078518537408882</StartPoint>
+       <Vector>0.0122521917778045 0.999924938850328 0.0122521917778045</Vector>
+      </CenterLine>
+      <Normal>0.0000000000000000 0.0000000000000000 0.9999999997685074</Normal>
+     </OppositeParallelLinesFeatureMeasurement>
+     <CircleFeatureMeasurement id="802">
+      <FeatureItemId>803</FeatureItemId>
+      <Location>31.7548366794034 75.5470631827237 -10.0045701410758</Location>
+      <Normal>0.0002888516645373 0.0000000000000000 0.999999958253184</Normal>
+      <Diameter>14.9840156265525</Diameter>
+     </CircleFeatureMeasurement>
+     <CircleFeatureMeasurement id="772">
+      <FeatureItemId>773</FeatureItemId>
+      <Location>31.7548459797633 75.5494314332262 -0.0015314578409662</Location>
+      <Normal>0.0000000000000000 0.0000000000000000 0.9999999995410228</Normal>
+      <Diameter>49.9840267789651</Diameter>
+     </CircleFeatureMeasurement>
+    </MeasuredFeatures>
+
+    <MeasuredCharacteristics>
+     <CharacteristicMeasurements n="32">
+      <LinearCoordinateCharacteristicMeasurement id="83016">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>83017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>832</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>60.568172454834</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="83026">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>83027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>832</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>22.4766464233398</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="83036">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>83037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>832</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-0.318249613046646</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="81016">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>81017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>812</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>74.02694665798521</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="81026">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>81027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>812</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>57.5236466722364</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="81036">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>81037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>812</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0040984027718012</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <DiameterCharacteristicMeasurement id="81076">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>81077</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>812</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>21.9924707368535</Value>
+      </DiameterCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82016">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>74.4567413990687</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82026">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>92.522659216447</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82036">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-14.0075358200533</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82046">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82047</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-0.0001712974669265</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82056">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82057</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="82066">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82067</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.9999999847531023</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <DiameterCharacteristicMeasurement id="82076">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82077</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>24.0126208020006</Value>
+      </DiameterCharacteristicMeasurement>
+      <AngleCharacteristicMeasurement id="82226">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82227</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>89.98078557403539</Value>
+      </AngleCharacteristicMeasurement>
+      <HeightCharacteristicMeasurement id="82096">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>82097</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>822</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>6.01521247217837</Value>
+      </HeightCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73016">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>18.5929093012334</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73026">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>21.6991393620872</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73036">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-0.0078518537408882</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73046">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73047</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73056">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73057</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73066">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73067</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.9999999997685074</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <WidthCoordinateCharacteristicMeasurement id="73076">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73077</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>14.993877399358</Value>
+      </WidthCoordinateCharacteristicMeasurement>
+      <LengthCharacteristicMeasurement id="73096">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73097</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>34.9965465437536</Value>
+      </LengthCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73296">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73297</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0122521917778045</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73306">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73307</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.999924938850328</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="73316">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>73317</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>732</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80016">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>31.7548366794034</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80026">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>75.5470631827237</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80036">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-10.0045701410758</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80046">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80047</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0002888516645373</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80056">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80057</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="80066">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80067</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.999999958253184</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <DiameterCoordinateCharacteristicMeasurement id="80076">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>80077</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>802</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>14.9840156265525</Value>
+      </DiameterCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77016">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77017</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>31.7548459797633</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77026">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77027</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>75.5494314332262</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77036">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77037</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>-0.0015314578409662</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77046">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77047</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77056">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77057</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.0000000000000000</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <LinearCoordinateCharacteristicMeasurement id="77066">
+       <Status>
+        <CharacteristicStatusEnum>BASIC_OR_TED</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77067</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>0.9999999995410228</Value>
+      </LinearCoordinateCharacteristicMeasurement>
+      <DiameterCoordinateCharacteristicMeasurement id="77076">
+       <Status>
+        <CharacteristicStatusEnum>PASS</CharacteristicStatusEnum>
+       </Status>
+       <CharacteristicItemId>77077</CharacteristicItemId>
+       <FeatureMeasurementIds>
+        <Id>772</Id>
+       </FeatureMeasurementIds>
+       <NonConformanceDesignator>NA</NonConformanceDesignator>
+       <TypeOfCoordinates>
+        <CoordinateEnum>CARTESIAN_3D</CoordinateEnum>
+       </TypeOfCoordinates>
+       <Value>49.9840267789651</Value>
+      </DiameterCoordinateCharacteristicMeasurement>
+     </CharacteristicMeasurements>
+    </MeasuredCharacteristics>
+
+    <InspectionStatus>
+     <InspectionStatusEnum>PASS</InspectionStatusEnum>
+    </InspectionStatus>
+
+    <ActualComponentIds n="1">
+     <Id>4</Id>
+    </ActualComponentIds>
+
+   </MeasurementResults>
+  </MeasurementResultsSet>
+  <ActualComponentSets n="1">
+   <ActualComponentSet n="1">
+    <ActualComponent id="4">
+     <SerialNumber>New part 29</SerialNumber>
+     <Status>
+      <InspectionStatusEnum>PASS</InspectionStatusEnum>
+     </Status>
+     <AsmPathId>3</AsmPathId>
+    </ActualComponent>
+   </ActualComponentSet>
+  </ActualComponentSets>
+  <InspectionTraceability>
+   <ReportPreparer>
+    <Name>Innovalia Metrology</Name>
+    <EmployeeId>M3</EmployeeId>
+   </ReportPreparer>
+   <ReportPreparationDate>2021-03-15T11:19:17</ReportPreparationDate>
+  </InspectionTraceability>
+ </Results>
+
+</QIFDocument>
